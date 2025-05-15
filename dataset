@@ -1,0 +1,9 @@
+movie_titles = movie_titles[:100]
+movie_overviews = movie_overviews[:100]
+movie_genres = movie_genres[:100]
+df = pd.DataFrame({
+    "title": movie_titles,
+    "overview": movie_overviews,
+    "genre": movie_genres
+})
+df.to_csv("100_movies.csv", index=False)
