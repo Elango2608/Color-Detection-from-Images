@@ -1,4 +1,3 @@
-
 # Color Detection from Image - Google Colab Version
 
 # Install required libraries
@@ -52,11 +51,6 @@ def draw_function(event, x, y, flags, param):
         b, g, r = img[y, x]
         b = int(b)
         g = int(g)
-
-
-
-
-
         r = int(r)
 
 cv2.namedWindow('Image')
